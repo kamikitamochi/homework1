@@ -1,7 +1,5 @@
 package Bai2;
 
-import java.util.Scanner;
-
 public class Bai2E {
     public static void main(String[] args) {
         int i = 1;
