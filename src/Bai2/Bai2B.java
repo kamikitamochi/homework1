@@ -9,7 +9,7 @@ public class Bai2B {
 
         int num = sc.nextInt();
 
-        for (int i = 1; i <= num - 1; i++) {
+        for (int i = 1; i < num; i++) {
             if (i % 2 == 0) {
                 System.out.print(i + " ");
             }
