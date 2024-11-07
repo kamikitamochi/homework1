@@ -23,7 +23,7 @@ public class Bai1F {
             System.out.println("Equilateral Triangle.");
         } else if (a == b || b == c) {
             System.out.println("Isosceles Triangle");
-        } else if ((a*a) + (b*b) == (c*c)) {
+        } else if ((a*a) + (b*b) == (c*c) || (a*a) + (c*c) == (b*b) || (b*b) + (c*c) == (a*a)) {
             System.out.println("Right Triangle");
         } else {
             System.out.println("normal Triangle");
